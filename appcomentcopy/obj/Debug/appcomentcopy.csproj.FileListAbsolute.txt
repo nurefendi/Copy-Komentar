@@ -1,0 +1,9 @@
+c:\users\maspendi\documents\visual studio 2015\Projects\appcomentcopy\appcomentcopy\bin\Debug\appcomentcopy.exe.config
+c:\users\maspendi\documents\visual studio 2015\Projects\appcomentcopy\appcomentcopy\bin\Debug\appcomentcopy.exe
+c:\users\maspendi\documents\visual studio 2015\Projects\appcomentcopy\appcomentcopy\bin\Debug\appcomentcopy.pdb
+c:\users\maspendi\documents\visual studio 2015\Projects\appcomentcopy\appcomentcopy\obj\Debug\appcomentcopy.csprojResolveAssemblyReference.cache
+c:\users\maspendi\documents\visual studio 2015\Projects\appcomentcopy\appcomentcopy\obj\Debug\appcomentcopy.Form1.resources
+c:\users\maspendi\documents\visual studio 2015\Projects\appcomentcopy\appcomentcopy\obj\Debug\appcomentcopy.Properties.Resources.resources
+c:\users\maspendi\documents\visual studio 2015\Projects\appcomentcopy\appcomentcopy\obj\Debug\appcomentcopy.csproj.GenerateResource.Cache
+c:\users\maspendi\documents\visual studio 2015\Projects\appcomentcopy\appcomentcopy\obj\Debug\appcomentcopy.exe
+c:\users\maspendi\documents\visual studio 2015\Projects\appcomentcopy\appcomentcopy\obj\Debug\appcomentcopy.pdb
