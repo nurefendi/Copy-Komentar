@@ -94,7 +94,7 @@ namespace appcomentcopy
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Button is not active!");
+            textBox1.ReadOnly = false;
         }
     }
 }
