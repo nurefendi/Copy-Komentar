@@ -16,13 +16,10 @@ namespace appcomentcopy
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
             
         }
-
+        string CurrentLine;
+        int LastLineNumber;
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             if ( radioButton1.Checked == true)
@@ -89,12 +86,27 @@ namespace appcomentcopy
             {
                 MessageBox.Show("Text is not null!");
             }
-            else { textBox1.Copy(); }
+            else { 
+                textBox1.Focus();
+                textBox1.SelectAll();
+                textBox1.Copy();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.ReadOnly = false;
+        }
+        
+        private void button3_Click(object sender, EventArgs e)
+        {
+               
+            CurrentLine = File.ReadLines(@"ini.txt").Skip(LastLineNumber).First();
+            textBox2.Text = CurrentLine;
+            LastLineNumber++;
+            textBox2.Focus();
+            textBox2.SelectAll();
+            textBox2.Copy();
         }
     }
 }
